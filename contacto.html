@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+    <section class="contact-form">
+        <h2>Contacto</h2>
+        <form id="formcontact">
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Correo Electrónico:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="phone">Número de Teléfono:</label>
+    <input type="tel" id="phone" name="phone" required>
+    
+    <label for="message">Mensaje:</label>
+    <textarea id="message" name="message" required></textarea>
+    
+    </form>
+    <p id="responformu"><strong>Gracias por contactarnos.</strong></p>
+    <button onclick="abrirGmail()">Enviar correo</button>
+
+    <script>
+    function abrirGmail() {
+        window.open("https://mail.google.com/mail/?view=cm&to=scarletsamilegutierrezmontero@gmail.com&su=Venta%20de%20casa&body=Hola,%20quiero%20más%20información.", "_blank");
+    }
+        </script>
+    
+    </section>
+    <script src="contacto.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+body{
+    background-color: #eba7a7;
+}
+.contenedor-casas {
+    display: flex;
+    justify-content: center; 
+    gap: 30px; 
+    padding: 40px;
+    flex-wrap: wrap; 
+    padding-bottom: 60px;
+}
+
+.casa {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.casa:hover {
+    transform: scale(1.05); 
+}
+
+h2 {
+    color: #b83a3a; 
+}
+
+p {
+    color: #333;
+    font-size: 16px;
+}
+h1{
+    text-align:center 
+}
+button {
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    }
